@@ -1,0 +1,63 @@
+.container{
+    display: grid;
+    grid-template-columns: [line1] 30% [line2] 30% [line3] 30% [line4];
+    grid-template-rows: [line1] auto [line2] auto [line3] auto [line4] auto [line5] auto [line6] auto [line7] auto [line8] auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    
+} 
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+      text-align: center;
+      font-size: 3em;
+      font-family: "Futura";
+      font-weight:bold;
+  }
+
+.item-text {
+    background: #f5f5f5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    place-self: center stretch;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: "Futura";
+    font-style: italic;
+    color: #4b4b4b;
+  }
+
+.item-überschrift {
+    background: #ffd67e;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    place-self: start;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: "Futura";
+  }
+
+.bild1{
+    grid-column: 1/2;
+    text-align: center;
+    font-family: "Futura";
+  }
+
+.bild2{
+    grid-column: 2/3;
+    text-align: center;
+    font-family: "Futura";
+  }
+
+.bild3{
+    grid-column: 3/4;
+    text-align: center;
+    font-family: "Futura";
+  }
+
+img { width: 100%; height: auto } 
