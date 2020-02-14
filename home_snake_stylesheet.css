@@ -1,0 +1,91 @@
+body {
+  background: #000000;
+}
+
+header {
+  text-align: center;
+}
+
+.wegweiser {
+  text-align: center;
+}
+
+.snake1 {
+  color: #55584d;
+  font-family: "Luminari";
+  font-size: 1.9em;
+  font-weight: bold;
+  position: absolute;
+  top: 61px;
+  left: 205px;
+  transform: rotate(2deg);
+}
+a.snake1:visited {
+  color: #363830;
+}
+a.snake1:link {
+  color: #363830;
+}
+a.snake1:hover {
+  color: #bcc4a7;
+}
+
+.snake2 {
+  font-family: "Luminari";
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: bold;
+  position: absolute;
+  top: 166px;
+  left: 175px;
+}
+
+a.snake2:visited {
+  color: #7290c4;
+}
+a.snake2:link {
+  color: #7290c4;
+}
+a.snake2:hover {
+  color: #b0cdff;
+}
+
+.snake3 {
+  font-family: "Luminari";
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  position: absolute;
+  top: 288px;
+  left: 175px;
+  transform: rotate(-3deg);
+}
+
+a.snake3:visited {
+  color: #5f5e79;
+}
+a.snake3:link {
+  color: #5f5e79;
+}
+a.snake3:hover {
+  color: #d8d7f3;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.container {
+  width: 600px;
+  height: 500px;
+  background-image: url(wegweiser2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 0 auto;
+}

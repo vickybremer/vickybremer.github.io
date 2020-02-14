@@ -1,0 +1,41 @@
+body {
+  background-image: url(MAD_HATTER2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(255, 228, 109);
+}
+
+.snake {
+  font-weight: 600;
+  font-family: "skia";
+  text-align: center;
+  font-size: 20;
+  color: rgb(110, 11, 34);
+  text-decoration: none;
+}
+
+#snake3 {
+  text-align: center;
+}
+
+header {
+  color: #ffffff;
+  text-align: center;
+}
+
+a:visited {
+  color: rgb(110, 11, 34);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(189, 54, 85);
+  text-decoration: none;
+}
+
+span {
+  text-align: left;
+}

@@ -1,0 +1,41 @@
+body {
+  background-image: url(bigwald-02.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+}
+
+#snake2 {
+  text-align: center;
+}
+
+.snake {
+  font-weight: 600;
+  font-family: "skia";
+  text-align: center;
+  font-size: 20;
+  color: rgb(105, 95, 95);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(105, 95, 95);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(198, 163, 233);
+  text-decoration: none;
+}
+
+header {
+  color: #ffffff;
+  text-align: center;
+}
+
+span {
+  text-align: left;
+}
